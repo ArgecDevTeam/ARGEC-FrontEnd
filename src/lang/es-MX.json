@@ -1,0 +1,68 @@
+{
+  
+  "menu.home": "Inicio",
+  "menu.about": "Acerca Nuestro",
+  "menu.contact": "Contáctenos",
+
+  "header.title": "SERVICIOS DE CONSULTORÍA ORIENTADO AL CLIENTE",
+  "header.subtitle": "Ofrecemos servicios de consultoría de calidad relacionados con el mundo IT",
+  "header.btnMore": "Mas info",
+
+  "card.askOne": "¿Necesitan potenciar sus procesos de reclutamiento?",
+  "card.askTwo": "¿Necesitan mejorar el impacto visual y en redes de su organización?",
+
+  "services.title": "Nuestros Servicios",
+  "services.cardOneTitle": "Reclutamiento IT:",
+  "services.cardOneDescription": "Encontramos a tu candidato ideal. ¿Cómo? Contamos con un equipo especializado de reclutadores con una amplia y actualizada base de datos de candidatos a la espera de poder ser utilizada para cubrir tus vacantes.",
+  "services.cardTwoTitle": "Cursos de Reclutamiento IT:",
+  "services.cardTwoDescription1": "Entendemos que el mercado requiere reclutadores altamente especializados.",
+  "services.cardTwoDescription2":"La tecnología, las nuevas herramientas, plataformas y programas, están en evolución constante, por lo que nos preocupamos en estar constantemente actualizados también.",
+  "services.cardThreeTitle": "Desarrollo web:",
+  "services.cardThreeDescription": "También estamos al tanto de las necesidades de pequeñas y medianas empresas en mejorar su impacto visual en el mercado y establecer una fuerte presencia online. Es por ello, que ofrecemos asistencia en la creación de sitios webs competitivos y acordes a poder cumplir sus objetivos.",
+  "services.button": "Contáctenos",
+
+  "separator.title": "Creamos modelos de negocio exitosos con nuestras Soluciones TI",
+
+  "work.title": "Nuestra forma de trabajar",
+  "work.cardOneTitle": "Satisfacción al cliente",
+  "work.cardOneDescription": "En ARGEC – IT Consulting, la satisfacción del cliente es nuestra máxima prioridad. Estamos comprometidos a brindar un servicio excepcional y personalizado para satisfacer todas sus necesidades de reclutamiento en tecnología. Nos esforzamos por superar sus expectativas y establecer relaciones de confianza a largo plazo.",
+  "work.cardTwoTitle": "Lo humano primero, siempre",
+  "work.cardTwoDescription": "Creemos en el valor fundamental de las personas. En cada paso del proceso de reclutamiento, ponemos a las personas primero. Nuestro enfoque se basa en la comprensión de las necesidades de nuestros clientes y candidatos, promoviendo un trato humano y ético en todas nuestras interacciones. Para nosotros, cada candidato es más que un currículum, son individuos con metas y sueños.",
+  "work.cardThreeTitle": "Enfoque orientado a la calidad",
+  "work.cardThreeDescription": "En nuestra consultora, la calidad es intransigente. Utilizamos métodos y procesos rigurosos para identificar, evaluar y seleccionar a los mejores talentos en el campo de la tecnología. Trabajamos estrechamente con nuestros clientes para comprender sus requisitos específicos y asegurarnos de que cada candidato que presentamos cumpla con los más altos estándares de calidad.",
+  "work.cardFourTitle": "Mejora continua",
+  "work.cardFourDescription": "La mejora continua es parte integral de nuestra cultura. Siempre estamos buscando formas de perfeccionar nuestros servicios y procesos para brindar un valor aún mayor a nuestros clientes. Recopilamos retroalimentación constantemente, evaluamos nuestros resultados y nos adaptamos a las cambiantes demandas del mercado de IT. Estamos comprometidos con el crecimiento constante y la innovación en el mundo del reclutamiento tecnológico.",
+
+  "whyArgec.title": "PORQUE ELEGIR ARGEC - IT CONSULTING?",
+  "whyArgec.itemOne": "Experiencia especializada en tecnología",
+  "whyArgec.itemTwo": "Amplia red de talento tecnológico",
+  "whyArgec.itemThree": "Procesos de selección eficientes",
+  "whyArgec.itemFour": "Adaptación a tus necesidades específicas",
+  "whyArgec.itemFive": "Éxito demostrado en colocaciones IT",
+  "whyArgec.itemSix": "Compromiso con la calidad y cultura empresarial",
+
+  "clients.title": "Más de 30 clientes confiaron en nosotros",
+  "clients.itemOne": "Años de experiencia",
+  "clients.itemTwo": "candidatos en nuestra BdD",
+  "clients.itemThree": "de Tasa de éxito en colocación de puestos IT",
+  "clients.itemFour": "días para cubrir roles tecnológicos",
+
+  "about.descriptionOne": "Somos una consultora especializada en el reclutamiento y selección de perfiles IT, talento digital y humano orientado también a rubros generalistas. Tomamos inspiración de las metodologías ágiles para siempre colocar a las personas en el centro, permitir la interacción y responder al cambio, de modo que los individuos puedan tener mejores oportunidades mientras las empresas puedan inspirar e integrar a profesionales que marcan la diferencia.",
+  "about.descriptionTwo": "Nuestro sistema de trabajo se enfoca en brindar oportunidades a nuevos profesionales, dándoles el conocimiento y las herramientas para que puedan brindar una atención personalizada, comprendiendo las necesidades de nuestros clientes, el mercado y nuestros candidatos.",
+  "about.descriptionThree": "Para nosotros, es crucial dotar al mercado con profesionales bien capacitados en diversas áreas. Por lo tanto, damos gran importancia a mantenernos actualizados con nuevas tecnologías, métodos y herramientas, no solo dentro de la industria de TI, sino también en mercados complementarios. Como resultado, ofrecemos cursos de formación continua para asegurar que nuestros profesionales siempre estén equipados con los conocimientos y habilidades más recientes.",
+  "about.funder": "Gonzalo Sánchez – Nuestro fundador",
+  "about.descriptionFunderOne": "Gonzalo es el fundador y líder de ARGEC – IT Consulting. Con un compromiso inquebrantable hacia la excelencia y una pasión por empoderar a otros, ha construido una reputación como asesor de confianza en la industria.",
+  "about.descriptionFunderTwo": "Como firme creyente en la responsabilidad y el compromiso, Gonzalo pone un fuerte énfasis en ofrecer resultados excepcionales para sus clientes. Comprende el impacto profundo que la tecnología puede tener en los negocios y constantemente se esfuerza por brindar soluciones innovadoras que impulsen el crecimiento y la eficiencia.",
+  "about.descriptionFunderThree": "Uno de los valores fundamentales de Gonzalo es su dedicación a la mejora continua. Le encanta mantenerse a la vanguardia de los avances de la industria, apoyándose siempre en nuevas tecnologías, métodos y herramientas. Esto le permite ofrecer a sus clientes las estrategias más eficientes, proporcionando también soluciones sostenibles.",
+  "about.descriptionFunderFour": "El amor de Gonzalo por enseñar y compartir conocimientos es incomparable. Se apasiona profundamente por transmitir su experiencia a otros, ya sea a través de programas de mentoría, talleres o charlas. Con una habilidad innata para simplificar conceptos complejos, Gonzalo ha empoderado a innumerables individuos para desbloquear su máximo potencial en el cambiante panorama de la tecnología.",
+  "about.descriptionFunderFive": "Impulsado por un espíritu emprendedor, Gonzalo abraza los desafíos y ve la oportunidad de convertir ideas en realidad. Su capacidad de recuperación y adaptabilidad le permiten navegar a través de incertidumbres, convirtiendo obstáculos en escalones hacia el éxito. Lidera con el ejemplo, inspirando a su equipo y clientes por igual a adoptar una mentalidad proactiva y emprendedora.",
+  "about.descriptionFunderSix": "Por encima de todo, el entusiasmo contagioso de Gonzalo es lo que lo distingue. Su auténtica pasión por la tecnología, el aprendizaje y el emprendimiento es contagiosa, inspirando a quienes lo rodean a traspasar límites y abrazar sus propias jornadas de crecimiento y transformación.",
+  "about.descriptionFunderSeven": "Con Gonzalo al timón, la consultoría prospera bajo una visión compartida de ofrecer un valor excepcional, fomentar la mejora continua e impulsar una pasión por la innovación. Juntos, estamos preparados para dejar una huella duradera en la industria de la tecnología y más allá.",
+
+  "contact.required1": "Los campos con",
+  "contact.required2":"son obligatorios",
+  "contact.inputName": "Nombre",
+  "contact.inputEmail": "E-mail",
+  "contact.inputMessage": "Mensaje",
+  "contact.button": "Enviar"
+}

@@ -1,0 +1,68 @@
+{
+  
+  "menu.home": "Home",
+  "menu.about": "About Us",
+  "menu.contact": "Contact Us",
+
+  "header.title": "CLIENT-FOCUSED CONSULTING SERVICES",
+  "header.subtitle": "We offer high-quality consulting services related to the IT world",
+  "header.btnMore": "More info",
+
+  "card.askOne": "Do you need to enhance your recruitment services?",
+  "card.askTwo": "Do you need to improve your organization's visual and social media impact?",
+
+  "services.title": "OUR SERVICES",
+  "services.cardOneTitle": "IT Recruitment:",
+  "services.cardOneDescription": "We found your ideal candidate. How? We have a specialized team of recruiters with a vast and up-to-date database of candidates ready to be utilized to fill your vacancies.",
+  "services.cardTwoTitle": "IT Recruitment Courses:",
+  "services.cardTwoDescription1": "We understand that the market demands highly specialized recruiters.",
+  "services.cardTwoDescription2": "Technology, new tools, platforms, and programs are in constant evolution, so we make it a priority to stay consistently updated as well.",
+  "services.cardThreeTitle": "Web Development:",
+  "services.cardThreeDescription": "We are also aware of the needs of small and medium-sized businesses to enhance their visual impact in the market and establish a strong online presence. That's why we offer assistance in creating competitive websites that align with achieving their goals.",
+  "services.button": "Contact us!",
+
+  "separator.title": "We create Successful Business Models with Our IT Solutions",
+
+  "work.title": "OUR WAY OF WORK",
+  "work.cardOneTitle": "Customer Satisfaction",
+  "work.cardOneDescription": "At ARGEC - IT Consulting, customer satisfaction is our top priority. We are dedicated to providing exceptional and personalized service to meet all your technology recruitment needs. We strive to exceed your expectations and build long-term trusted relationships.",
+  "work.cardTwoTitle": "People First, Always",
+  "work.cardTwoDescription": "We believe in the fundamental value of people. At every stage of the recruitment process, we prioritize people. Our approach is centered on understanding the needs of our clients and candidates, promoting a humane and ethical approach in all our interactions. To us, every candidate is more than just a resume; they are individuals with goals and dreams.",
+  "work.cardThreeTitle": "Quality-Centric Approach",
+  "work.cardThreeDescription": "At our consulting firm, quality is non-negotiable. We employ rigorous methods and processes to identify, assess, and select the top talents in the field of technology. We work closely with our clients to understand their specific requirements and ensure that every candidate we present meets the highest quality standards.",
+  "work.cardFourTitle": "Continuous Improvement",
+  "work.cardFourDescription": "Continuous improvement is an integral part of our culture. We are always looking for ways to enhance our services and processes to deliver even greater value to our clients. We gather feedback consistently, evaluate our results, and adapt to the changing demands of the IT market. We are committed to constant growth and innovation in the world of technology recruitment.",
+
+  "whyArgec.title": "WHY CHOOSE ARGEC - IT CONSULTING?",
+  "whyArgec.itemOne": "Specialized Technology Expertise",
+  "whyArgec.itemTwo": "Extensive Network of Tech Talent",
+  "whyArgec.itemThree": "Efficient Selection Processes",
+  "whyArgec.itemFour": "Tailored to Your Specific Needs",
+  "whyArgec.itemFive": "Proven Success in IT Placements",
+  "whyArgec.itemSix": "Commitment to Quality and Corporate Culture",
+
+  "clients.title": "Over 30 clients have trusted us",
+  "clients.itemOne": "years of experience",
+  "clients.itemTwo": "candidates in our database",
+  "clients.itemThree": "success rate in placing IT positions",
+  "clients.itemFour": "days to fill technology roles",
+
+  "about.descriptionOne": "We are a consulting firm specialized in the search and selection of IT profiles, Digital Talent, and Human Talent with a generalist background. We draw inspiration from the Agile methodologies to always place people at the center, enable interaction, and respond to change, so that individuals can have better opportunities while companies can inspire and integrate professionals who are making a difference.",
+  "about.descriptionTwo": "Our working system focuses give new professionals oportunities, giving them the knoweldge and the tools so they can provide a personalized attention, understanding the needs of our clients, the market, and our candidates.",
+  "about.descriptionThree": "For us, it is crucial to equip the market with professionals who are well-trained in various areas. Therefore, we place great importance on staying updated with new technologies, methods, and tools, not only within the IT industry but also in complementary markets. As a result, we offer continuous training courses to ensure our professionals are always equipped with the latest knowledge and skills.",
+  "about.funder": "Gonzalo Sánchez - Our founder",
+  "about.descriptionFunderOne": "Gonzalo is the esteemed founder and visionary leader of ARGEC – IT Consulting. With a steadfast commitment to excellence and a passion for empowering others, he has built a reputation as a trusted advisor in the industry.",
+  "about.descriptionFunderTwo": "As a firm believer in responsibility and accountability, Gonzalo places a strong emphasis on delivering exceptional results for his clients. He understands the profound impact that technology can have on businesses, and he consistently strives to provide innovative solutions that drive growth and efficiency.",
+  "about.descriptionFunderThree": "One of Gonzalo’s core values is a dedication to continuous improvement. He thrives on staying at the forefront of industry advancements, eagerly embracing new technologies, methods, and tools. This enables him to offer his clients the most cutting-edge strategies and deliver sustainable, future-proof solutions.",
+  "about.descriptionFunderFour": "Gonzalo’s love for teaching and sharing knowledge is unparalleled. He is deeply passionate about imparting his expertise to others, whether it’s through mentorship programs, workshops, or speaking engagements. With an innate ability to simplify complex concepts, Gonzalo has empowered countless individuals to unlock their full potential in the rapidly evolving IT landscape.",
+  "about.descriptionFunderFive": "Driven by an entrepreneurial spirit, Gonzalo embraces challenges and embraces the opportunity to turn ideas into reality. His resilience and adaptability allow him to navigate through uncertainties, turning obstacles into stepping stones for success. He leads by example, inspiring his team and clients alike to embrace a proactive and entrepreneurial mindset.",
+  "about.descriptionFunderSix": "Above all, Gonzalo’s infectious enthusiasm is what sets him apart. His genuine passion for technology, learning, and entrepreneurship is contagious, inspiring those around him to push boundaries and embrace their own journeys of growth and transformation.",
+  "about.descriptionFunderSeven": "With Gonzalo at the helm, the consultancy thrives on a shared vision of delivering exceptional value, fostering continuous improvement, and igniting a passion for innovation. Together, they are poised to make a lasting impact in the IT industry and beyond.",
+
+  "contact.required1": "Fields marked with an",
+  "contact.required2":"are required",
+  "contact.inputName": "Name",
+  "contact.inputEmail": "E-mail",
+  "contact.inputMessage": "Message",
+  "contact.button": "Send"
+}
