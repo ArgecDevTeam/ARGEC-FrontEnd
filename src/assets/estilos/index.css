@@ -1,0 +1,863 @@
+/* Tarjeta */
+
+.tarjeta {
+  height: 50vh;
+  margin: 50px 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-prueba {
+  background-image: url(../img/patron4.webp);
+  border-radius: 40px;
+}
+
+.tarjeta__contenedor{
+  background: rgb(0, 133, 249);
+  background: linear-gradient(90deg, rgba(26, 212, 245, 0.877) 44%, rgba(60, 0, 255, 0.74) 94%);
+  height: 250px;
+  border-radius: 40px;
+  display: flex;
+  height: 250px;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.tarjeta__logo img {
+  height: 110px;
+}
+
+.tarjeta__info {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 400px;
+}
+
+.tarjeta__info div {
+  margin-top: 20px;
+}
+
+/* Seccion de Nuestros Servicios */
+
+.servicios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prueba-img {
+  background-image: url(../img/patron1.webp);
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: rgba(240, 151, 34, 0.726);
+  background: linear-gradient(90deg, rgba(250, 135, 47, 0.938) 41%, rgba(250, 181, 31, 0.966) 94%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios__titulo {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.servicios__contenedor {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.servicios__contenedor-tarjeta {
+  width: 380px;
+  height: 280px;
+  position: relative;
+  border-radius: 20px;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.servicios__tarjeta-info {
+  margin: 80px auto 0 auto;
+  width: 300px;
+  text-align: center;
+}
+
+.servicios__tarjeta-info h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.servicios__tarjeta-info p {
+  font-size: .9rem;
+}
+
+.servicios__contenedor-tarjeta:hover{
+  background-color: #1455cec2;
+  color: #fff;
+  box-shadow: 0px 0px 10px 4px #0249acec;
+}
+
+/* Estilos para las imagenes de los servicios */
+
+.servicios__tarjeta-img--lupa {
+  position: absolute;
+  background-image: url(../img/it-Recruitment.webp);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 30px 20px;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+
+.servicios__tarjeta-img--lupa:hover {
+  background-image: url(../img/lupa2-remove.webp);
+  opacity: .3;
+}
+
+.servicios__tarjeta-img--cursos {
+  position: absolute;
+  background-image: url(../img/it-Recruitment-course.webp);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 30px 20px;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+
+
+.servicios__tarjeta-img--cursos:hover {
+  background-image: url(../img/cursos2-remove.webp);
+  opacity: .3;
+}
+
+.servicios__tarjeta-img--desarrollo {
+  position: absolute;
+  background-image: url(../img/web-Development.webp);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: 30px 30px;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+
+
+.servicios__tarjeta-img--desarrollo:hover {
+  background-image: url(../img/web2-remove.webp);
+  opacity: .3;
+}
+
+
+.servicios__boton {
+  height: 60px;
+  width: 150px;
+  border-radius: 18px;
+  background-color: rgba(20, 85, 206, 0.937);
+  margin: 10px 0 100px;
+}
+
+.servicios__boton a {
+  height: 60px;
+  width: 150px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.servicios__boton:hover {
+  background-color: rgb(57, 116, 243);
+}
+
+/* Separador */
+
+.separador {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -80px;
+}
+
+.separador-img {
+  background-image: url(../img/patron1.webp);
+  height: 100%;
+  width: 70%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.separador-contenedor {
+  background: rgb(60, 0, 255);
+  background: linear-gradient(100deg, rgba(20, 85, 206, 0.979) 47%, rgba(109, 174, 248, 0.966) 91%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.imagen__separador {
+  width: 375px;
+  background-image: url(../img/separador-1.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+.separador-frase {
+  height: 100%;
+  width: 68.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 50px;
+  font-weight: 500;
+}
+
+
+/* Nuetra forma de Trabajo */
+
+.trabajo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo__trabajo {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.trabajo__contenedor {
+  height: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.trabajo__tarjeta {
+  border-radius: 20px;
+  transition: all .3s;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.trabajo__tarjeta:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px rgba(20, 85, 206, 0.979);
+}
+
+.trabajo__tarjeta-info {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 18px;
+  transition: all .2s;
+}
+
+.trabajo__tarjeta-info:hover {
+  border-radius: 20px;
+}
+
+.trabajo__tarjeta-info h4 {
+  color: rgb(240, 151, 34);
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.trabajo__tarjeta-info p {
+  font-size: .8rem;
+  color: #000000;
+}
+
+/* Porque elegir ARGEC - IT Consulting? */
+
+.argec {
+  width: 100%;
+}
+
+.container-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/patron3.webp);
+}
+
+.container-argec {
+  background: rgb(91,115,242);
+  background: linear-gradient(280deg, rgba(91, 116, 242, 0.863) 10%, rgba(20, 85, 206, 0.979) 58%);
+  height: 100%;
+  width: 100%;
+  padding: 20px 0 40px;
+}
+
+.argec__titulo {
+  color: #fff;
+  margin: 30px 80px 0;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.argec__respuesta {
+  color: #fff;
+  font-weight: 500;
+  margin: 13px 90px;
+  font-size: 1.2rem;
+}
+
+.argec__contenedor {
+  display: flex;
+  margin-top: 40px;
+}
+
+.argec__contenedor-items {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.argec__item {
+  display: flex;
+  margin: 0 85px;
+  height: 60px;
+  align-items: center;
+}
+
+.argec__item-icono {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d38a03;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.argec__item-icono img {
+  width: 35px;
+}
+
+.argec__item-icono i {
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+}
+
+.argec__item-info h5 {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.argec__item-info p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.argec__contenedor-imagen {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.argec__contenedor-imagen img {
+  height: 360px;
+  width: 100%;
+}
+
+/* Seccion clientes */
+
+.clientes {
+  width: 100%;
+  height: 50vh;
+}
+
+.clientes__imagen {
+  background-image: url(../img/backgroundClientes.webp );
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientes__contenedor {
+  background-color: rgba(255, 255, 255, 0.596);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clientes__contenedor h2 {
+  color: #ff7b00;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.clientes__items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cliente__item {
+  width: 300px;
+  height: 82px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cliente__item-icono {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 85, 206, 0.937);
+  border-radius: 15px;
+}
+
+.cliente__item-icono i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.cliente__item-icono img {
+  width: 45px;
+}
+
+.cliente__item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 238px;
+}
+
+.cliente__item-info p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cliente__item-info p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  /* Seccion tarjeta */
+  
+  .tarjeta {
+    margin: 0;
+    padding: 100px 0;
+    height: auto;
+  }
+
+  .tarjeta__contenedor {
+    height: 300px;
+    width: 720px;
+    border-radius: 24px;
+    justify-content: center;
+  }
+
+  .tarjeta__logo img {
+    height: 80px;
+  }
+
+  .tarjeta__info {
+    width: 300px;
+  }
+
+  /* Seccion Nuestros Servicos */
+
+  .servicios {
+    height: auto;
+  }
+
+  .servicios__titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .servicios__contenedor {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .servicios__contenedor-tarjeta {
+    width: 350px;
+  }
+
+  /* Separador */
+  
+  .separador {
+    height: auto;
+    padding: 100px 0;
+    /* top: 0; */
+    position: static;
+    align-items: center;
+  }
+
+  .separador-img {
+    width: 100%;
+    height: 230px;
+    border-radius: 0;
+  }
+
+  .separador-contenedor {
+    width: 100%;
+    height: 230px;
+  }
+
+  .imagen__separador {
+    width: 100%;
+    height: 100%;
+  }
+
+  .separador-frase {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Seccion nuestra forma de trabajar */
+
+  .trabajo {
+    height: auto;
+  }
+
+  .titulo__trabajo {
+    text-align: center;
+  }
+
+  .trabajo__contenedor {
+    height: auto;
+    margin: 40px 0;
+  }
+
+  /* Seccion porque elegir argec */
+
+  .container-argec {
+    padding: 22px 0 0 0;
+  }
+
+  .argec__titulo {
+    margin: 0;
+    text-align: center;
+  }
+
+  .argec__respuesta {
+    margin: 0;
+    padding: 18px;
+    text-align: center;
+  }
+
+  .argec__contenedor-imagen {
+    width: 100%;
+  }
+
+  .argec__contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .argec__contenedor {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .argec__contenedor-items {
+    width: 100%;
+  }
+
+  .argec__item {
+    flex-direction: column;
+    height: 180px;
+    gap: 14px;
+  }
+
+  .argec__item-icono {
+    height: 65px;
+    width: 65px;
+  }
+
+  .argec__item-icono i {
+    font-size: 40px;
+  }
+
+  .argec__item-info {
+    text-align: center;
+  }
+
+  .argec__item-info h5 {
+    font-size: 20px;
+  }
+
+  .argec__item-info p {
+    font-size: 16px;
+  }
+
+  /* Seccion clientes */
+
+  .clientes {
+    height: auto;
+  }
+
+  .clientes__items {
+    justify-content: center;
+  }
+
+  .cliente__item {
+    width: 320px;
+  }
+
+  .clientes__contenedor {
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .clientes__contenedor h2 {
+    width: 700px;
+  }
+}
+
+/* Medidas para mobile */
+
+@media screen and (max-width: 767px) {
+  /* Seccion tarjeta */
+  
+  .tarjeta {
+    margin: 0;
+    padding: 100px 0;
+    /* height: 52vh; */
+    height: auto;
+  }
+
+  .tarjeta__contenedor {
+    height: 340px;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 24px;
+    justify-content: center;
+    background: rgb(0, 133, 249);
+    background: linear-gradient(180deg, rgba(26, 212, 245, 0.877) 44%, rgba(60, 0, 255, 0.74) 94%);
+  }
+
+  .tarjeta__logo img {
+    height: 80px;
+  }
+
+  .tarjeta__info {
+    width: 300px;
+  }
+
+  /* Seccion Nuestros Servicos */
+
+  .servicios {
+    height: auto;
+  }
+
+  .servicios__titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .servicios__contenedor {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .servicios__contenedor-tarjeta {
+    width: 350px;
+  }
+
+  /* Separador */
+  
+  .separador {
+    height: 70vh;
+    padding: 0;
+    top: 0;
+    align-items: center;
+  }
+
+  .separador-img {
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+  }
+
+  .separador-contenedor {
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .imagen__separador {
+    width: 100%;
+    height: 100%;
+  }
+
+  .separador-frase {
+    width: 100%;
+    height: 410px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* Seccion nuestra forma de trabajar */
+
+  .trabajo {
+    height: auto;
+  }
+
+  .titulo__trabajo {
+    text-align: center;
+    margin-top: 26px;
+  }
+
+  .trabajo__contenedor {
+    height: auto;
+    margin: 20px 0 100px 0;
+    gap: 20px;
+  }
+
+  .trabajo__tarjeta {
+    width: 300px;
+    height: 380px;
+    justify-content: center;
+  }
+
+  .trabajo__tarjeta-info {
+    width: 100%;
+    height: auto;
+  }
+
+  .trabajo__tarjeta-info p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* Seccion porque elegir argec */
+
+  .container-argec {
+    padding: 22px 0 0 0;
+  }
+
+  .argec__titulo {
+    margin: 0;
+    text-align: center;
+  }
+
+  .argec__respuesta {
+    margin: 0;
+    padding: 18px;
+    text-align: center;
+  }
+
+  .argec__contenedor-imagen {
+    display: none;
+  }
+
+  .argec__contenedor {
+    justify-content: center;
+  }
+
+  .argec__contenedor-items {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .argec__item {
+    flex-direction: column;
+    height: 180px;
+    gap: 14px;
+  }
+
+  .argec__item-icono {
+    height: 65px;
+    width: 65px;
+  }
+
+  .argec__item-icono i {
+    font-size: 40px;
+  }
+
+  .argec__item-info {
+    text-align: center;
+  }
+
+  .argec__item-info h5 {
+    font-size: 20px;
+  }
+
+  .argec__item-info p {
+    font-size: 16px;
+  }
+
+  /* Seccion clientesl */
+
+  .clientes {
+    height: 75vh;
+  }
+
+  .clientes__imagen {
+    align-items: start;
+    background-position: -110px;
+  }
+
+  .clientes__contenedor {
+    padding-top: 10px;
+  }
+
+  .clientes__items {
+    justify-content: center;
+    align-items: center;
+  }
+}

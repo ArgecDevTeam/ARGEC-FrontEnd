@@ -1,0 +1,284 @@
+/* Header */
+
+.header_menu {
+  height: 70vh;
+}
+
+.header__menu_2 {
+  position: static;
+  height: 96px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff93;
+  z-index: 10;
+}
+
+.header__menu-items {
+  display: flex;
+  gap: 1.3rem;
+  margin-right: 10px;
+}
+
+.header__menu-links {
+  list-style: none;
+}
+
+.header__menu-links a {
+  color: #000000;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header__menu-links a:hover {
+  border-bottom: 1px #000 solid;
+  font-weight: 700;
+  border-bottom-style: dashed;
+}
+
+.header__menu-links--active a {
+  border-bottom: 1px #000 solid;
+  font-weight: 700;
+}
+
+.header__titulo_menu {
+  height: calc(100% - 6rem);
+  background-image: url(../img/patron1.webp);
+}
+
+.header__fondo_menu_contacto {
+  background-color: #901affee;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 0 0;
+}
+
+.header__fondo_menu_contacto h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+/* Seccion Formulario de contacto */
+
+.formulario {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.formulario__contenedor {
+  width: 1000px;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.formulario__texto {
+  font-size: 1.2rem;
+}
+
+.asterisco {
+  color: red;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  gap: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.form_contacto {
+  height: 100%;
+  width: 550px;
+}
+
+.contenedor__input {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 0 20px;
+}
+
+.formulario__input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formulario__input input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 400px;
+  border: 1px solid #515151;
+  background: transparent;
+  border-radius: 15px;
+}
+
+.formulario__input input:focus, textarea:focus {
+  outline: 1px rgb(60, 0, 255) solid;
+}
+
+.formulario__input textarea {
+  height: 160px;
+  width: 400px;
+  resize: none;
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: 1px solid #515151;
+  background: transparent;
+  border-radius: 15px;
+}
+
+.formulario__input label {
+  margin-left: 8px;
+}
+
+.formulario__boton {
+  height: 40px;
+  width: 140px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: blue;
+  color: #fff;
+  font-size: 1rem;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.formulario__boton:hover {
+  background-color: rgb(240, 151, 34);
+}
+
+.imagen {
+  height: 100%;
+  width: 450px;
+}
+
+.imagen img {
+  height: 428px;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .header_menu {
+    height: auto;
+  }
+
+  .header__menu_2 {
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  
+  .header__titulo_menu {
+    height: 200px;
+    margin-top: calc(200px - 6rem);
+    width: 100%;
+  }
+
+  .header__fondo_menu_contacto {
+    align-items: center;
+    padding: 0;
+  }
+
+  .formulario__contenedor {
+    width: 100%;
+  }
+
+  .formulario__texto {
+    margin-left: 32px;
+  }
+
+  .form_contacto {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario__input input {
+    width: 700px;
+  }
+
+  .formulario__input textarea {
+    width: 700px;
+  }
+
+  .imagen {
+    display: none;
+  }
+}
+
+/* Medidas para mobile */
+
+@media screen and (max-width: 767px) {
+  .header_menu {
+    height: auto;
+  }
+  
+  .header__menu_2 {
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  
+  .header__titulo_menu {
+    height: 200px;
+    margin-top: calc(200px - 6rem);
+    background-image: url(../img/patron1.webp);
+  }
+
+  .header__titulo_menu h1 {
+    font-size: 2rem;
+  }
+  
+  .header__fondo_menu_contacto {
+    align-items: center;
+    padding: 0;
+  }
+
+  .formulario__contenedor {
+    width: 100%;
+  }
+
+  .formulario__texto {
+    text-align: center;
+  }
+
+  .form_contacto {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario__input input {
+    width: 340px;
+  }
+
+  .formulario__input textarea {
+    width: 340px;
+  }
+
+  .imagen {
+    display: none;
+  }
+}
